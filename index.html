@@ -1,0 +1,1203 @@
+<!doctype html>
+<html>
+<head>
+<title>Pro Manager</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<main class="app-container">
+    <!-- Top bar Start-->
+    <section id="top-bar">
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-6 col-6 col-md-6">
+          <div class="logo-div">
+            <img src="assets/images/logo.png">
+          </div>
+        </div>
+        <div class="col-lg-6 col-6 col-md-6">
+          <div class="profile-div">
+            <span><i class="fa fa-cog"></i></span>
+            <span><i class="fa fa-bell-o"></i></span>
+            <div class="profile-box">
+              <img src="assets/images/profile-img.png">
+              <div class="profile-inner">
+                <div class="profile-pic-box">
+                  <img src="assets/images/profile-img.png">
+                  <h4>Hassan Rana <span>Manager</span></h4>
+                </div>
+                <div class="edit-profile-btn">
+                  <a href="javascript:;" data-toggle="modal" data-target="#edit-profile">Edit Profile</a>
+                  <a href="javascript:;">Log Out</a>
+                </div>
+              </div>
+            </div>
+            <div class="beneficiary-added-txt">
+              <h6>beneficiary added</h6>
+              <p>Got it</p>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <!-- Top bar  End-->
+
+    <!-- dashboard bar  start-->
+    <section id="dashboard-sec">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-3">
+            <div class="dsh-txt">
+            <h1>Dashboard</h1>
+           </div>
+         </div>
+           <div class="col-lg-6 col-md-9">
+            <div class="btn-div">
+              <div class="generate-pdf">
+              <img src="assets/images/download-icon.svg">
+              <div class="generate-pdf-div">
+                <a href="javascript:;">Generate PDF </a>
+                <a href="javascript:;" data-toggle="modal" data-target="#generate-pdf-modal">Generate Excel</a>
+              </div>
+              </div>
+              <div class="add-btn">
+              <a href="javascript:;" data-toggle="modal" data-target="#beneficiary">Add Beneficiary</a></div>
+              <div class="withdraw-btn">
+              <a href="javascript:;" data-toggle="modal" data-target="#withdraw">Withdraw</a>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- dashboard bar  end-->
+    
+  <!-- total sec  start-->
+  <section id="total-sec">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="grwth-main">
+          <div class="row">
+          <div class="col-lg-8 col-7 col-md-8">
+            <div class="totl-indiv">
+              <p>Total balance</p>
+              <h4>343,232</h4>
+              <a href="javascript:;"><i class="fa fa-long-arrow-up"></i>30%</a>
+              <a class="btn-clr" href="javascript:;">30%</a>
+             </div>
+           </div>
+            <div class="col-lg-4 col-4">
+             <div class="totl-indiv">
+              <img src="assets/images/growth01.png" class="img-fluid">
+            </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        <div class="col-lg-4">
+          <div class="grwth-main">
+          <div class="row">
+          <div class="col-lg-8 col-7">
+            <div class="totl-indiv">
+              <p>Total balance</p>
+              <h4>343,232</h4>
+              <a href="javascript:;"><i class="fa fa-long-arrow-up"></i>30%</a>
+              <a class="btn-clr" href="javascript:;">30%</a>
+             </div>
+           </div>
+            <div class="col-lg-4 col-4">
+             <div class="totl-indiv">
+              <img src="assets/images/growth02.png" class="img-fluid">
+            </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="col-lg-4">
+          <div class="grwth-main">
+          <div class="row">
+          <div class="col-lg-8 col-7">
+            <div class="totl-indiv">
+              <p>available balance</p>
+              <h4>343,232</h4>
+              <a href="javascript:;"><i class="fa fa-long-arrow-up"></i>30%</a>
+              <a class="btn-clr" href="javascript:;">30%</a>
+             </div>
+           </div>
+            <div class="col-lg-4 col-4">
+             <div class="totl-indiv">
+              <img src="assets/images/growth03.png" class="img-fluid">
+            </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div> 
+      </div>
+     </section>
+  <!-- total sec  end-->
+
+  <!-- User sec  start-->
+  <section id="user-sec">
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-5">
+           <div class="user-panel">
+           <div class="row">
+            <div class="col-lg-12">
+              <div class="user-head">
+                <h2>users</h2>
+              </div>
+            </div>
+            <div class="col-lg-6 pr-0  col-6">
+              <div class="user-head name">
+                <h2>Name</h2>
+              </div>
+            </div>
+             <div class="col-lg-6 pl-0 col-6">
+              <div class="user-head action">
+                <h2>Action</h2>
+              </div>
+            </div>
+
+            <div class="user-box">
+            <div class="col-lg-12">
+              <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img01.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                       <div class="user-name">
+                          <h4>Hassan Rana</h4>
+                          <p>rana@gmail.com</p>
+                       </div>
+                     </div>
+                    <div class="col-lg-4 pl-0 col-4 col-3 col-md-3">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img02.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                      <div class="user-name">
+                          <h4>Maaz Sattar</h4>
+                          <p>maazsattar@gmail.com</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 pl-0 col-4 col-md-3">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img02.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                      <div class="user-name">
+                          <h4>Hassan Rana</h4>
+                          <p>rana@gmail.com</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 pl-0 col-4 col-md-3">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img04.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                      <div class="user-name">
+                          <h4>Pop Pop</h4>
+                          <p>poppop@gmail.com</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 pl-0 col-4 col-md-4">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img05.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                      <div class="user-name">
+                          <h4>Hafsa</h4>
+                          <p>hafsa@gmail.com</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 pl-0 col-4 col-md-4">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img04.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                      <div class="user-name">
+                          <h4>pop</h4>
+                          <p>pop@gmail.com</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 pl-0 col-4 col-md-3">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-1 pr-0 col-2 col-md-1">
+                    <div class="user-profile-picture-div">
+                       <img src="assets/images/profile-img04.png" class="img-fluid">
+                     </div>
+                    </div>
+                    <div class="col-lg-7 pl-0 pr-0 col-6 col-md-7">
+                      <div class="user-name">
+                          <h4>pop</h4>
+                          <p>pop@gmail.com</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 pl-0 col-4 col-md-3">
+                      <div class="user-icon-div">
+                          <span><i class="fa fa-ellipsis-v"></i></span>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+          </div>
+           </div>          
+          </div>
+         </div>
+          <div class="col-lg-7">
+            <div class="ct-chart" data-chart="30%" data-population="30%">
+              <p>Monthly REsponses</p>
+              <canvas id="bar-chart" width="800" height="450"></canvas>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- User sec  end-->
+
+
+  <!-- Transaction sec  start-->
+    <section id="transaction-sec">
+      <div class="container-fluid">
+        <div class="row">
+           <div class="col-lg-8">
+             <ul class="tabs-custom-nav">
+               <li><a href="#tab1" class="current">Transaction history</a></li>
+                <li><a href="#tab2" id="modl1" data-toggle="modal" data-target="#withdraw1">make Transaction</a></li>
+                <li><a href="#tab3">withdraw history</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="text" name="" placeholder="Search">
+             </div>
+            </div>
+            <div class="col-md-12 tabs-custom general">
+              <div id="tab1" class="selected tab-content-panel">
+                  <div class="ct-table">
+                    <table>
+                      <tr>
+                        <th>INVOICE NO.</th>
+                        <th>RECEIVED BY</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th>
+                        <th>AGAINST INVOICE</th>
+                        <th>STATUS</th>
+                        <th>ACTION</th>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">Transferred</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+              <div id="tab2" class="tab-content-panel">
+                  <div class="ct-table">
+                    <table>
+                      <tr>
+                        <th>INVOICE NO.</th>
+                        <th>RECEIVED BY</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th>
+                        <th>AGAINST INVOICE</th>
+                        <th>STATUS</th>
+                        <th>ACTION</th>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" class="make-transaction-btn">Make Transaction</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+              <div id="tab2" class="tab-content-panel">
+                  <div class="ct-table">
+                    <table>
+                      <tr>
+                        <th>INVOICE NO.</th>
+                        <th>RECEIVED BY</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th>
+                        <th>AGAINST INVOICE</th>
+                        <th>STATUS</th>
+                        <th>ACTION</th>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;" >WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>1011111</td>
+                        <td>1 Up Cargo - 36185</td>
+                        <td>500</td>
+                        <td>17-10-2022</td>
+                        <td>2345678</td>
+                        <td><a href="javascript:;">WithDraw Funds</a></td>
+                        <td class="ct-dots"><span><i class="fa fa-ellipsis-v"></i></span></td>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  <!-- Transaction sec  end-->
+
+
+  <!-- pop-ups-btns -->
+  <a href="#"  data-toggle="modal" data-target="#withdraw">popup 1</a>
+  <a href="#"  data-toggle="modal" data-target="#withdraw1">popup 2</a>
+  <a href="#"  data-toggle="modal" data-target="#withdraw3">popup 3</a>
+  <a href="#"  data-toggle="modal" data-target="#beneficiary">popup 4</a>
+  <a href="#"  data-toggle="modal" data-target="#generate-pdf-modal">popup 5</a>
+  <a href="#"  data-toggle="modal" data-target="#edit-profile">popup 6</a>
+  <a href="#"  data-toggle="modal" data-target="#edit-profile-step-two">popup 7</a>
+  <a href="#"  id="modl1" data-toggle="modal" data-target="#withdraw1">popup 8</a>
+  <a href="#"  id="modl1" data-toggle="modal" data-target="#otp">popup 9</a>
+  <!-- pop-ups-btns -->
+
+
+<!-- ////****withdraw-popup-start*****//////  -->
+<div class="modal fade" id="withdraw" tabindex="-1" role="dialog" aria-labelledby="withdraw" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Withdraw Funds</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="withdraw-main">
+      <div class="row">
+      <div class="col-md-6">
+        <div class="withdraw-funds">
+            <p>Available Balance</p>
+            <h2>343,232</h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="withdraw-img-div">
+            <img src="assets/images/no1.png">
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class="chose-txt">
+         <h3>Choose payment type</h3>
+           <p>Account must contain atleast 50$ after withdrawal to be considered opened, if you wish to close account select withdraw all funds</p>
+        </div>
+     </div>
+     <div class="row ct-ftr">
+      <div class="col-lg-6 col-6 col-md-6 ct-cols">
+        <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#withdraw2">Withdraw all funds</button>
+      </div>
+       <div class="col-lg-6 col-6 col-md-6 ct-cols">
+        <button type="button" class="btn btn-primary" id="modl1"  data-toggle="modal" data-target="#withdraw1">Withdraw amount</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- ////****withdraw-popup-end*****//////  -->
+
+
+
+
+<!-- ////****withdraw1-popup-start*****//////  -->
+<div class="modal fade" id="withdraw1" tabindex="-1" role="dialog" aria-labelledby="withdraw1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Withdraw Funds </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="withdraw-main">
+         <div class="row">
+           <div class="col-lg-6">
+            <div class="withdraw-funds">
+            <p>Available Balance</p>
+            <h2>343,232</h2>
+          </div>
+         </div>
+        <div class="col-lg-6">
+          <div class="withdraw-img-div">
+            <img src="assets/images/no1.png">
+          </div>
+         </div>
+         <div class="currency-div">
+          <div class="row">
+           <div class="col-lg-4"><div class="currency-txt-div"><p>CURRENCY<span>usd</span></p></div></div>
+           <div class="col-lg-4"><div class="currency-txt-div"><p>fee<span>432</span></p></div></div>
+           <div class="col-lg-4"><div class="currency-txt-div"><p>Limit<span>234567</span></p></div></div>
+           </div>
+          </div>
+          </div>
+        </div>
+        <div class="ct-ipt-txt">
+          <div class="choose-binary">
+            <h4>Select Beneficiary</h4>
+            <p>Choose Beneficiary who you want to transfer</p>
+            <label>username</label>
+            <input type="name" name="" placeholder="eg:John">
+            <h4>Amount</h4>
+            <p>Enter the amount in USD to withdraw fund</p>
+            <label>password</label>
+            <input type="name" name="" placeholder="eg: 5000$">
+            <h4>Location</h4>
+            <p>Select Location to withrday funds</p>
+            <label>Country</label>
+            <input type="name" name="" placeholder="eg: Pakistan">
+            <label>City</label>
+            <input type="name" name="" placeholder="eg: Karachi">
+          </div>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary" id="modl2"  data-toggle="modal" data-target="#withdraw3">Withdraw</button>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- ////****withdraw1-popup-end*****//////  -->
+
+
+<!-- ////****withdraw-popup-start*****//////  -->
+<div class="modal fade" id="withdraw3" tabindex="-1" role="dialog" aria-labelledby="withdraw3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Withdraw Funds</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="withdraw-main">
+      <div class="row">
+      <div class="col-md-6">
+        <div class="withdraw-funds">
+            <p>Available Balance</p>
+            <h2>343,232</h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="withdraw-img-div">
+            <img src="assets/images/no1.png">
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class="chose-txt">
+         <h3>Choose payment type</h3>
+           <p>Account must contain atleast 50$ after withdrawal to be considered opened, if you wish to close account select withdraw all funds</p>
+        </div>
+     </div>
+     <div class="row ct-ftr">
+      <div class="col-lg-6 col-md-6 col-6 ct-cols">
+        <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#withdraw">Withdraw all funds</button>
+      </div>
+       <div class="col-lg-6 col-md-6 col-6 ct-cols">
+        <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#otp">Withdraw amount</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- ////****withdraw-popup-end*****//////  -->
+
+
+<!-- ////****beneficairy-popup-start*****//////  -->
+<div class="modal fade" id="beneficiary" tabindex="-1" role="dialog" aria-labelledby="beneficiary" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Beneficiary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="ct-ipt-txt">
+          <div class="choose-binary">
+            <h4>User Name</h4>
+            <p>select vehicle type for routing</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>username</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+              <div class="col-md-6">
+                <label>username</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+            </div>
+            <hr>
+            <h4>Email Address</h4>
+            <p>Enter email address user will use to use propay</p>
+            <label>Email</label>
+            <input type="name" name="" placeholder="eg: johndoe@gmail.com">
+            <hr>
+            <h4>Password</h4>
+            <p>Enter email address user will use to use propay</p>
+            <label>password</label>
+            <input type="name" name="" placeholder="eg: ******">
+            <h4>Location</h4>
+            <p>Select Location to withrday funds</p>
+            <label>Country</label>
+            <input type="name" name="" placeholder="eg: Pakistan">
+            <label>City</label>
+            <input type="name" name="" placeholder="eg: Karachi">
+          </div>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#add users">Add</button>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- ////****beneficairy-popup-end*****//////  -->
+
+
+
+
+<!-- ////****generate-pdf-popup-start*****//////  -->
+<div class="modal fade" id="generate-pdf-modal" tabindex="-1" role="dialog" aria-labelledby="generate-pdf-modal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">download report</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="ct-ipt-txt">
+          <div class="choose-binary">
+            <h4>Generate Result</h4>
+            <p>enter the following details to generate result</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Transaction ID</label>
+                <input type="name" name="" placeholder="eg:Pakistan">
+              </div>
+              <div class="col-md-6">
+                <label>Receiver ID</label>
+                <input type="name" name="" placeholder="eg:Pakistan">
+              </div>
+            </div>
+            <hr>
+            <h4>Company Date</h4>
+            <p>Match this company data with rest documents</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Company Name</label>
+                <input type="name" name="" placeholder="eg:propay">
+              </div>
+              <div class="col-md-6">
+                <label>Reciever ID</label>
+                <input type="name" name="" placeholder="eg:12-oct-2022">
+              </div>
+            </div>
+            <hr>
+            <h4>Amount</h4>
+            <p>Enter the Amount in USD to Withdraw fund</p>
+            <label>Password</label>
+            <input type="name" name="" placeholder="eg: 5000$">
+            <hr>
+            <h4>Date</h4>
+            <p>Enter date to generate transaction results</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Transaction From</label>
+                <input type="name" name="" placeholder="eg:12-oct-2022">
+              </div>
+              <div class="col-md-6">
+                <label>Reciever to</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+            </div>
+           <hr>
+            <h4>Transition Type</h4>
+            <p>Choose type to generate transaction results</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Type</label>
+                <select>
+                  <option>eg:credit</option>
+                  <option>Debit</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label>Status</label>
+                <select>
+                  <option>eg:pending</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" id="show-add-beni-txt" class="btn btn-primary"  data-toggle="modal" data-target="#add users">Withdraw</button>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- ////****generate-pdf-popup-end*****//////  -->
+
+
+<!-- ////****edit-profile-popup-start*****//////  -->
+ <div class="modal fade" id="edit-profile" tabindex="-1" role="dialog" aria-labelledby="edit-profile" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="ct-ipt-txt">
+          <div class="choose-binary">
+            <h4>User details</h4>
+            <p>Enter all the details of the user</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>First Name</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+              <div class="col-md-6">
+                <label>first name</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+            </div>
+            <hr>
+            <label>Email</label>
+            <input type="name" name="" placeholder="eg: johndoe@gmail.com">
+            <hr>
+            <h4>Bank Account</h4>
+            <p>Enter all the details to add bank account</p>
+            <label>card number</label>
+            <input type="name" name="" placeholder="eg: 0000 0000 0000 0000">
+            <div class="row">
+             <div class="col-lg-6 col-md-6 col-6">
+               <label>exp. date</label>
+                <input type="name" name="" placeholder="eg: 12/24">
+              </div>
+             <div class="col-lg-6 col-md-6 col-6">
+               <label>cvv</label>
+                <input type="name" name="" placeholder="eg: 123">
+              </div>
+            </div>
+            <label>country</label>
+            <select>
+              <option>eg: Pakistan</option>
+              <option>eg: America</option>
+              <option>eg: Uk</option>
+              <option>eg: India</option>
+              <option>eg: Australia</option>
+            </select>
+          </div>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#add users" id="ct-btn-addcart">Add Cart</button>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#edit-profile-step-two" id="ct-save">Save</button>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- ////****edit-profile-popup-end*****//////  -->
+
+
+
+<!-- ////****edit-profile-2ndstep-popup-start*****//////  -->
+ <div class="modal fade" id="edit-profile-step-two" tabindex="-1" role="dialog" aria-labelledby="edit-profile-step-two" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="ct-ipt-txt">
+          <div class="choose-binary">
+            <h4>User details</h4>
+            <p>Enter all the details of the user</p>
+            <div class="row">
+              <div class="col-md-6">
+                <label>First Name</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+              <div class="col-md-6">
+                <label>first name</label>
+                <input type="name" name="" placeholder="eg:John">
+              </div>
+            </div>
+            <hr>
+            <label>Email</label>
+            <input type="name" name="" placeholder="eg: johndoe@gmail.com">
+            <hr>
+            <h4>Bank Account</h4>
+            <p>Enter all the details to add bank account</p>
+            <div class="row credit-main">
+             <div class="col-lg-8 col-md-8 col-8">
+              <div class="credit-card-div">
+                <img src="assets/images/credit-card.png">
+                <ul>
+                  <li>1234</li>
+                  <li>5678</li>
+                  <li>9101</li>
+                  <li>1121</li>
+                </ul>
+                <h3>Jack Lewis</h3>
+              </div>
+              </div>
+             <div class="col-lg-4 col-md-4 col-4">
+               <div class="visa-card">
+                 <img src="assets/images/visa.png">
+                 <h5>06/21</h5>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#add users" id="ct-credit-a">Remove Card</button>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#add users" id="ct-credit-save">Save</button>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- ////****edit-profile-2ndstep-popup-end*****//////  -->
+
+
+<!-- ////****otp-popup-start*****//////  -->
+<div class="modal fade" id="otp" tabindex="-1" role="dialog" aria-labelledby="otp" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Withdraw Funds </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="withdraw-main">
+         <div class="row">
+           <div class="col-lg-6">
+            <div class="withdraw-funds">
+            <h2>Enter OTP</h2>
+            <p>Choose Beneficiary who you want to transfer</p>
+          </div>
+         </div>
+        </div>
+        <div class="ct-ipt-txt">
+          <div class="choose-binary">
+            <ul class="otp-num">
+              <li><input type="number" name=""></li>
+              <li><input type="number" name=""></li>
+              <li><input type="number" name=""></li>
+              <li><input type="number" name=""></li>
+              <li><input type="number" name=""></li>
+              <li><input type="number" name=""></li>
+            </ul>
+          </div>
+        </div>
+        <div class="ftr-btn">
+          <button type="button" class="btn btn-primary" id="modl2"  data-toggle="modal" data-target="#otp">Withdraw</button>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- ////****withdraw1-popup-end*****//////  -->
+
+
+</main>
+<script src="assets/js/jquery.min.js"></script> 
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/slick.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script> 
+<script type="text/javascript" src="assets/js/wow.js"></script> 
+<script type="text/javascript" src="assets/js/functions.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script>
+// Bar chart
+new Chart(document.getElementById("bar-chart"), {
+    type: 'bar',
+    data: {
+      labels: ["", "", "", "", "","", "", "", "", "","", "", "", "", "","", "", "", "", ""],
+      datasets: [
+        {
+          label: "Population (millions)",
+          backgroundColor: ["#27AE60", "#27AE60","#27AE60","#27AE60","#27AE60","#27AE60", "#27AE60","#27AE60","#27AE60","#27AE60","#27AE60", "#27AE60","#27AE60","#27AE60","#27AE60","#27AE60", "#27AE60","#27AE60","#27AE60","#27AE60"],
+          data: [10,100,200,400,300,10,100,200,400,300,10,100,200,400,300,10,100,200,400,300],
+        }
+      ]
+    },
+    options: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: ''
+      }
+    }
+});
+</script>
+
+<script>
+$("#modl1").click(function(){
+  $("#withdraw").hide();
+  $(".modal-backdrop.show").hide();
+
+
+});
+$("#modl2").click(function(){
+  $("#withdraw1").hide();
+  $(".modal-backdrop.show").hide();
+});
+$("#show-add-beni-txt").click(function(){
+  $(".beneficiary-added-txt").css('opacity','1');
+  $(".modal-backdrop.show").hide();
+  $("#generate-pdf-modal").hide();
+  setTimeout(function() {
+                    $('.beneficiary-added-txt').css('opacity','0');
+                }, 1000);
+});
+
+
+
+</script>
+</body>
+</html>
